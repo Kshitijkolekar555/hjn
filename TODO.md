@@ -4,11 +4,10 @@
 
 - [x] Update Backend/package.json to add "start" script for Node.js deployment
 - [x] Update README.md to include Render deployment instructions
-- [ ] Push changes to GitHub repository
-- [ ] Deploy Backend as a Web Service on Render
+- [x] Push changes to GitHub repository
 - [ ] Deploy Frontend as a Static Site on Render
-- [ ] Set environment variables in Render dashboard for Backend
-- [ ] Test the deployed application
+- [ ] Set VITE_API_BASE_URL in Render for Frontend
+- [ ] Test the deployed frontend application
 
 ## Notes
 

@@ -203,7 +203,8 @@ Render supports both backend and frontend deployment seamlessly.
 
 1. **Create Static Site**:
    - Service Type: Static Site
-   - Build Command: `npm run build`
+   - Root Directory: `Frontend` (important: set this to build from the Frontend folder)
+   - Build Command: `npm install && npm run build`
    - Publish Directory: `dist`
 2. **Environment Variables** (if needed):
    - `VITE_API_BASE_URL`: Your Render backend URL (e.g., `https://your-backend.onrender.com/api`)
